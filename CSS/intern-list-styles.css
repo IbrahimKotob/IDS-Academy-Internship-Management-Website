@@ -1,0 +1,75 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.intern-list {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #116181;
+    color: white;
+}
+
+.accept-button,
+.reject-button {
+    background-color: #116181;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.accept-button:hover,
+.reject-button:hover {
+    background-color: #0b4e66;
+}
+footer {
+    background-color: #116181;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+.list-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #116181;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.list-button:hover {
+    background-color: #0b4e66;
+}

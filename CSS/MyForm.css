@@ -1,0 +1,33 @@
+.txtfield{
+    border-radius: 3px;
+    height: 25px;
+    font-size: 15px;
+    border: 1px solid #116181;
+    padding: 5px;
+    margin: 1px 0px 0px 0px;
+}
+label{
+    font-size: 16px;
+    color: #146780;
+    margin-top: 8px;
+}
+.mSelect{
+    border-radius: 3px;
+    height: 25px;
+    font-size: 15px;
+    border: 1px solid #116181;
+    padding: 5px;
+    margin: 1px 0px 8px 0px;
+    color: #116181;
+}
+.mButton{
+    padding: 7px;
+    background: #146780;
+    color: white;
+    border: 1px solid;
+    cursor: pointer;
+}
+.mButton:hover{
+    background: transparent;
+    color: #146780;
+} 
